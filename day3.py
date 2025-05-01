@@ -17,6 +17,13 @@ from selenium.webdriver.common.by import By
 ##this clear the input field
 #element.clear()
 
+# #filling the forms
+# element = driver.find_element(By.XPATH, "//select[@name='name']")
+# all_options = element.find_elements(By.TAG_NAME, "option")
+# for option in all_options:
+#     print("Value is: %s" % option.get_attribute("value"))
+#     option.click()
+ ##this is  not a good for selection for the option because the all option are slecting 
 
-
+ 
 
