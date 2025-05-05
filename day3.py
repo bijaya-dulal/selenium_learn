@@ -38,4 +38,13 @@ from selenium.webdriver.common.by import By
 ## this is for deselection of the selected options
 #select.deselect_all()
 
+##this  give the a list of the selected option 
+# select = Select(driver.find_element(By.XPATH, "//select[@name='name']"))
+# all_selected_options = select.all_selected_options
 
+##and this will give the all availabel options
+#option = select.options
+
+##to submit the form 
+## Assume the button has the ID "submit" :)
+#driver.find_element(By.ID, "submit").click()
