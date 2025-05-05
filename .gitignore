@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 selenium-server-4.31.0.jar
 selenium-server-*.jar
+demo.html
