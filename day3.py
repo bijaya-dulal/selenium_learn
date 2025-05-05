@@ -59,3 +59,24 @@ from selenium.webdriver.common.by import By
 # action_chains = ActionChains(driver)
 # action_chains.drag_and_drop(element, target).perform()
 
+##moving between window and frame
+##use the driver.switch_to_window('window')
+##see other alternative to the documentaion 
+
+
+##popup dialog
+#driver.switch_to.alert  #this will return the alert object and can interact withthe popup
+
+#navigation history
+ #driver.forward()
+ #drier.back()
+
+
+# #THIS IS FOR THE COOKIE INTE 
+#  # Now set the cookie. This one's valid for the entire domain
+# cookie = {'name' : 'foo', 'value' : 'bar'}
+# driver.add_cookie(cookie)
+
+# # And now output all the available cookies for the current URL
+# driver.get_cookies()
+
