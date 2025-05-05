@@ -25,5 +25,17 @@ from selenium.webdriver.common.by import By
 #     option.click()
  ##this is  not a good for selection for the option because the all option are slecting 
 
- 
+##we can use Select class to  work with the select input tags
+
+
+# from selenium.webdriver.support.ui import Select
+# select = Select(driver.find_element(By.NAME, 'name'))
+# select.select_by_index(index)
+# select.select_by_visible_text("text")
+# select.select_by_value(value)
+
+
+## this is for deselection of the selected options
+#select.deselect_all()
+
 
