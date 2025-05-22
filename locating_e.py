@@ -1,4 +1,5 @@
-## this are the methods to select the multiple elements.
+## this are the methods to select the element
+
 # from selenium.webdriver.common.by import By
 
 # driver.find_element(By.XPATH, '//button[text()="Some text"]')
@@ -20,5 +21,9 @@
 # TAG_NAME = "tag name" #locate by the tag name
 # CLASS_NAME = "class name" #by class name
 # CSS_SELECTOR = "css selector" #use css selector
+
+#find_element will return the single first come element and elements give te list of the element
+
+##
 
 

@@ -1,0 +1,7 @@
+🎯 Here’s what you’ll explore in this carousel:
+→ Java Essentials for Automation
+→ Control Statements & Loops
+→ Selenium WebDriver Architecture
+→ XPath & Locators
+→ WebDriver Methods
+
